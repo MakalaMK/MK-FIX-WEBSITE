@@ -194,6 +194,58 @@ ul li a:hover{
     background: #fff;
 }
 
+.content .cn3{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn3 a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.cn3:hover{
+    background: #fff;
+}
+
+.main7 .cn7{
+    width: 160px;
+    height: 40px;
+    background: rgb(49, 49, 216);
+    border: none;
+    margin-top: 550px;
+    margin-left: -600px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.main7 .cn7 a{
+    text-decoration: none;
+    font-family: Arial black;
+    color: grey;
+    transition: 0.3s ease;
+}
+
+.cn7:hover{
+    background: #fff;
+}
+.cn7:hover a{
+    color: #000;
+}
+
 .form{
     width: 250px;
     height: 170px;
@@ -948,7 +1000,7 @@ ul li a:hover{
 
 .main7{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(ecomm.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(digi.jpg);
     background-position: center;
     background-size: cover;
     height: 780px;
@@ -974,4 +1026,117 @@ ul li a:hover{
     float: right;
     background: none;
     border: none;
+}
+
+/* PHONES */
+
+.main7 .phone1 a img{
+    width: 450px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.main7 .phone2 a img{
+    width: 450px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 500px;
+}
+
+.main7 .phone3 a img{
+    width: 350px;
+    height: 450px;
+    margin-top: -490px;
+    margin-left: 970px;
+}
+
+/* COMPUTERS */
+
+.main7 .comp1 a img{
+    width: 450px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.main7 .comp2 a img{
+    width: 450px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 500px;
+}
+
+.main7 .comp3 a img{
+    width: 350px;
+    height: 450px;
+    margin-top: -490px;
+    margin-left: 970px;
+}
+
+/* ELECTRICITY */
+
+.main7 .ele1 a img{
+    width: 450px;
+    height: 450px;
+    margin-top: 130px;
+    margin-left: -650px;
+}
+
+.main7 .ele2 a img{
+    width: 450px;
+    height: 450px;
+    margin-top: -550px;
+    margin-left: 500px;
+}
+
+.main7 .ele3 a img{
+    width: 350px;
+    height: 450px;
+    margin-top: -490px;
+    margin-left: 970px;
+}
+
+/* SALOON */
+
+.main7 .sal1 a img{
+    width: 450px;
+    height: 600px;
+    margin-top: 130px;
+    margin-left: -650px;
+}
+
+.main7 .sal2 a img{
+    width: 450px;
+    height: 600px;
+    margin-top: -580px;
+    margin-left: 500px;
+}
+
+.main7 .sal3 a img{
+    width: 350px;
+    height: 500px;
+    margin-top: -590px;
+    margin-left: 970px;
+}
+
+/* BARBER */
+
+.main7 .bab1 a img{
+    width: 400px;
+    height: 600px;
+    margin-top: 130px;
+    margin-left: -650px;
+}
+
+.main7 .bab2 a img{
+    width: 400px;
+    height: 600px;
+    margin-top: -600px;
+    margin-left: 450px;
+}
+
+.main7 .bab3 a img{
+    width: 450px;
+    height: 600px;
+    margin-top: -590px;
+    margin-left: 870px;
 }
