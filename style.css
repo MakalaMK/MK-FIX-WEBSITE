@@ -4,13 +4,20 @@ padding: 0;
 
 }
 
-.main{
-    width: 100%;
+body {
+    background-image: url(ob2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*.main{
+    width: 123%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(engineering.jpg);
     background-position: center;
     background-size: cover;
     height: 780px;
-}
+}*/
 
 .navbar{
     width: 1200px;
@@ -25,7 +32,7 @@ padding: 0;
 }
 
 .logo{
-    color: #ff7200;
+    color: #158cd1;
     font-size: 35px;
     font-family: Algerian;
     padding-left: 20px;
@@ -55,14 +62,14 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffffd7;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4 ease-in-out;
 }
 
 ul li a:hover{
-    color:#ff7200;
+    color:#158cd1;
 }
 
 .search{
@@ -76,9 +83,9 @@ ul li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid #ff7200;
+    border: 1px solid #158cd1;
     margin-top: 14px;
-    color: #fff;
+    color: #ffffffd7;
     margin-right: -4px;
     border-right: none;
     font-size: 16px;
@@ -91,10 +98,10 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
+    background: #158cd1;
+    border: 2px solid #158cd1;
     margin-top: 13px;
-    color: #fff;
+    color: #ffffffd7;
     font-size: 15px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -120,7 +127,7 @@ ul li a:hover{
     width: 1200px;
     height:auto;
     margin: auto;
-    color:#fff;
+    color: #ffffffd7;
     position: relative;
 }
 
@@ -144,7 +151,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background: #158cd1;
     border: none;
     margin-top: 10px;
     margin-left: 20px;
@@ -166,14 +173,14 @@ ul li a:hover{
 }
 
 .content span{
-    color:#ff7200;
+    color:#158cd1;
     font-size: 60px
 }
 
 .content .cn2{
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background: #158cd1;
     border: none;
     margin-top: 120px;
     margin-left: 940px;
@@ -197,7 +204,7 @@ ul li a:hover{
 .content .cn3{
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background: #158cd1;
     border: none;
     margin-top: -10px;
     margin-left: 20px;
@@ -261,7 +268,7 @@ ul li a:hover{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: #ff7200;
+    color: #158cd1;
     font-size: 22px;
     background-color: #fff;
     border-radius: 10px;
@@ -272,7 +279,7 @@ ul li a:hover{
 .btnn{
     width: 240px;
     height: 40px;
-    background: #ff7200;
+    background: #158cd1;
     border: none;
     margin-top: 10px;
     font-size: 18px;
@@ -337,9 +344,9 @@ ul li a:hover{
 
 
 /* RESPONSIVE HOME */
-
+/*
 @media screen and (max-width:1200px){
-    /* NORMAL SCREEN */
+    /* NORMAL SCREEN /
     .navbar{
         width: 100%;
         height: 100px;
@@ -384,7 +391,7 @@ ul li a:hover{
 }
 
 @media screen and(max-width:1179px) {
-    /* LOG IN BOX */
+    /* LOG IN BOX /
 
     .main{
         padding-left: 20px;
@@ -407,7 +414,7 @@ ul li a:hover{
 }
 
 @media screen and (max-width:830px) {
-    /* Tablet */
+    /* Tablet /
     .content{
         margin-top: 120px;
         width: 80%;
@@ -464,7 +471,7 @@ ul li a:hover{
 }
 
 @media screen and (max-width:600px) {
-/* ipad old*/
+/* ipad old/
     .content{
         margin-top: 80px;
         margin-left: 20px;
@@ -491,7 +498,7 @@ ul li a:hover{
 }
 
 @media screen and (max-width:450px) {
-    /* MOBILE */
+    /* MOBILE /
     .logo{
         margin-left: 140px;
         font-size: 4vw;
@@ -506,16 +513,16 @@ ul li a:hover{
         margin-top: -40px;
         margin-left: 38px;
     }
-}
+} */
 
 /*About.html*/
-.main2{
+/*.main2{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Engine.jpg);
     background-position: center;
     background-size: cover;
     height: 780px;
-}
+}*/
 
 .logo2{
     color: #00b7ff;
@@ -792,17 +799,18 @@ ul li a:hover{
     color: #ff7200;
 }
 
+/* log in */
 .contain{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 90vh;
 
-    width: 100%;
+    /*width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(Rd2.jpg);
     background-position: center;
     background-size: cover;
-    height: 780px; 
+    height: 780px;*/ 
 }
 .box{
     background:  linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
