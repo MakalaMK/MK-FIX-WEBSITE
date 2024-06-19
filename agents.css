@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%), url(cart1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navig button{
+    background: rgba(141, 137, 117, 0.774);
+    padding: 15px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-family: arial black;
+    color: rgb(45, 45, 110);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+.navig button:hover{
+    background-color: rgb(45, 45, 110);
+    color: rgb(63, 88, 88);
+    transition: .3s;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: aqua;
+}
+ul li a:hover{
+    color: #fff;
+}
+ul li ion-icon{
+    color: aqua;
+}
+ul li ion-icon:hover{
+    color:#fff;
+}
+
+/*form*/
+
+.box{
+    background:  linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 450px;
+    margin: -40px 420px;
+
+}
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: system-ui;
+    text-align: center;
+    color: #00b7ff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+
+.form-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    color: #fff;
+    flex-direction: column;
+
+}
+.form-box form .input input{
+    height: 40px;
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0 10px;
+    border-bottom: 1px solid #00a2ff;
+    outline: none;
+}
+.btns{
+    height: 35px;
+    width: 20%;
+    margin-left: 180px;
+    text-align: center;
+    background: rgba(76,68,182,0.808);
+    border: 0;
+    border-radius: 10px;
+    color: aqua;
+    font-size: 20px;
+    font-family: Arial;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btns:hover{
+    opacity: 0.82;
+    transition: .3s;
+}
+
+.submit{
+    width: 100%;
+}

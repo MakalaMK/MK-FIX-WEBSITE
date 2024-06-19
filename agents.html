@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="agents.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Admin Page</title>
+    </head>
+    <body>
+            <div class="navig">
+                <button>Logout</button>
+            </div>
+            <div class="menus">
+                <ul>
+                    <br><br><br>
+                    <li><a href="agents.html"><ion-icon name="person-circle"></ion-icon> AGENTS</a></li><br>
+                    <li><a href="loggedin.html"><ion-icon name="home"></ion-icon> HOME</a></li><br>
+                    <li><a href="adminads.html"><ion-icon name="cart"></ion-icon> ADVERTISE</a></li><br>
+                    <li><a href="#"><ion-icon name=""></ion-icon> MANAGE</a></li>
+                </ul>
+            </div>
+            <div class="box form-box">
+                <header>Recruit Agent</header>
+                <form action="" method="post">
+                    <div class="field input">
+                        <input type="text" name="Name" id="Name" placeholder="User Name" autocomplete="off" required>
+                    </div>
+                    <div class="field input">
+                        <input type="number" name="NRC" id="NRC" placeholder="NRC Number" autocomplete="off" required>
+                    </div>
+                    <div class="field input">
+                        <input type="text" name="Email" id="Email" placeholder="Email" autocomplete="off" required>
+                    </div>
+                    <div class="field input">
+                        <input type="number" name="Phone" id="Phone" placeholder="Phone" autocomplete="off" required>
+                    </div>
+                    <div class="field input">
+                        <input type="password" name="password" id="password" placeholder="Password" autocomplete="off" required>
+                    </div>
+                    <div class="field">
+                        <input type="submit" name="submit" class="btns" value="DONE" required>
+                    </div>
+                </form>
+            </div>
+         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+</html>
