@@ -5,7 +5,7 @@
     
     }
 body {
-    background-image: url(Rd2.jpg);
+    background-image: url(login2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body {
 .b23 .cn8{
     width: 160px;
     height: 40px;
-    background: rgb(49, 49, 216);
+    background: rgb(148, 138, 84);
     border: none;
     margin-top: 550px;
     margin-left: -800px;
@@ -41,7 +41,7 @@ body {
 .b23 .cn8 a{
     text-decoration: none;
     font-family: Arial black;
-    color: grey;
+    color: rgb(34, 33, 33);
     transition: 0.3s ease;
 }
 
@@ -138,4 +138,15 @@ body {
 .b23 .homebtn2 a{
     color: #86807e;
     font-size: 30px;
+}
+.forgot span{
+    color: #fff;
+    font-family: system-ui;
+    font-style: italic;
+}
+.forgot span a{
+    color: #afa4a4;
+    text-decoration: underline;
+    font-family: system-ui;
+    font-style: italic;
 }

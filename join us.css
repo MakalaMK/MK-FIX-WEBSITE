@@ -5,7 +5,7 @@
     
     }
 body {
-    background-image: url(Rd3.jpg);
+    background-image: url(order1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body {
 }
 .form-box{
     width: 450px;
-    margin: 0px 10px;
+    margin: 70px 10px;
 }
 .form-box header{
     font-size: 25px;
@@ -84,6 +84,7 @@ body {
     flex-direction: column;
 
 }
+
 .form-box form .input input{
     height: 40px;
     width: 95%;
@@ -97,6 +98,9 @@ body {
     padding: 0 10px;
     border-bottom: 1px solid #00a2ff;
     outline: none;
+}
+::placeholder{
+    color: rgb(182, 179, 179);
 }
 .btnnn{
     height: 35px;
@@ -131,9 +135,16 @@ body {
 .links a{
     color: #ff7200;
 }
+span{
+    color: #fff;
+    font-family: system-ui;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(133, 187, 187);
+}
 .b22 .homebtn{
     margin-left: -800px;
-    margin-top: 590px;
+    margin-top: 550px;
     font-family: Arial black;
 }
 .b22 .homebtn a{
@@ -141,8 +152,7 @@ body {
     font-size: 30px;
 }
 
-/*.b22 .btnn2{
-    font-family: Arial black;
-    color: aqua;
+/*.b22 .cn8{
+    margin-top: -450px;
 
 }

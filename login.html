@@ -11,10 +11,10 @@
         <div class="contain">
             <div class="box form-box">
                 <header>Login</header>
-                <form action="" method="post">
+                <form class="login_form" action="loggedin.html" method="post" name="form" onsubmit="return validated()">
                     <div class="field input">
                         <!--<label for="username">Username</label>-->
-                        <input type="text" name="username" id="username" placeholder="Username" autocomplete="off" required>
+                        <input type="text" name="username" id="username" placeholder="Username/Agent Code" autocomplete="off" required>
                     </div>
                     
 
@@ -37,8 +37,11 @@
                         
                     </div>
                     <div class="links">
-                        Don't Have An Account? <a href="join us.html">Sign In </a>
+                        Don't Have An Account? <a href="join us.html">Register </a>
                         <br>
+                    </div>
+                    <div class="forgot">
+                        <span> Forgot <a href="reset.html">Password?</a></span>
                     </div>
                 </form>
             </div>
@@ -46,5 +49,6 @@
                 <button class="cn8"><a href="home.html">HOME</a></button>
             </div>
         </div>
+        <script src="login.js"></script>
     </body>
     </html>

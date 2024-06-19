@@ -5,7 +5,8 @@
     }
     
     body {
-        background-image: url(ob7.jpg);
+        background: linear-gradient(to top, rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%), url(ob7.jpg);
+        /*background-image: url(ob7.jpg);*/
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

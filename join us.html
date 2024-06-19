@@ -10,33 +10,32 @@
     <body>
         <div class="container">
             <div class="box form-box">
-                <header>Sign Up</header>
-                <form action="" method="post">
+                <header>Register as Agent</header>
+                <form action="https://api.web3forms.com/submit" method="post" class="contact-left">
+                    <div class="contact-left-title"></div>
+                
                     <div class="field input">
-                        
-                        <input type="text" name="username" id="username" placeholder="Username" autocomplete="off" required>
-                    </div>
-
-                    <div class="field input">
-                        
-                        <input type="text" name="email" id="email" placeholder="Email" autocomplete="off" required>
-                    </div>
-
-                    <div class="field input">
-                        
-                        <input type="number" name="age" id="age" placeholder="Age" autocomplete="off" required>
-                    </div>
-                    <div class="field input">
-                        
-                        <input type="password" name="password" id="password" placeholder="Password" required>
-                    </div>
-                    
-                    <div class="field">
-                        
-                        <input type="submit" name="submit" class="btnnn" value="Sign Up" required>
+                        <input type="hidden" name="access_key" value="6ebf8624-f927-4ce5-a3c9-3ecfd9207cc5">
+                        <br>
+                        <input type="text" name="Name" placeholder="Full Name" class="contact-inputs" required>
+                        <br>
+                        <input type="email" name="Email" placeholder="Email" class="contact-inputs" required>
+                        <br>
+                        <input type="number" name="Phone" placeholder="Phone" class="contact-inputs" required>
+                        <br>
+                        <input type="number" name="age" placeholder="Age" class="contact-inputs" required>
+                        <br>
+                        <input type="text" name="NRC" placeholder="NRC Number" class="contact-inputs" required>
+                        <br>
                     </div>
                     <div class="links">
                         Already Have An Account? <a href="login.html">Login </a>
+                    </div>
+                    <div class="field">
+                        <input type="submit" class="btnnn" value="REGISTER">
+                        </div>
+                    <div class="note">
+                        <span> You Will Recieve Your Login Details Within 48Hrs </span>
                     </div>
                 </form>
             </div>
